@@ -1,0 +1,46 @@
+#cells {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid transparent;
+    font-size: xx-small;
+  }
+  
+  .top {
+    border-top-color: #000;
+  }
+  
+  .bottom {
+    border-bottom-color: #000;
+  }
+  
+  .left {
+    border-left-color: #000;
+  }
+  
+  .right {
+    border-right-color: #000;
+  }
+  
+ .rat {
+    width: 20px;
+    height: 20px;
+    background: orange!important;
+    position: absolute;
+  }
